@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #b1bdc7;
+    background: url(img/fondo\ viteado.webp);
+    background-size:cover;
+    
+}
+
+p {
+    font-weight: 600;
+}
+
+nav{
+    width: 100€;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212529;
+    padding-left: 2vw;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+.cont-ul {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    cursor:default;
+    padding: 1.5vw;
+    transition: all 0.3s ease 0s;
+}
+
+li:hover {
+    background-color: #344966;
+}
+
+.develop{
+    position: relative;
+    
+    
+}
+
+.ul-second {
+    display: none;
+    position: absolute;
+    margin-top: 1.5vw;
+}
+
+.ul-second > li {
+    width: 190px;
+    transform: translate(-20px);
+    border-bottom: solid 1px #4a5e57;
+    text-align: center;
+    background-color: #344966;
+    border-radius: 10px;
+    
+    
+}
+
+.ul-second > li:hover {
+    background-color: #e2662d;
+    transform: scale(1.05, 1.05)
+}
+
+.develop:hover > .ul-second {
+    display: block;
+}
+
+.develop1 {
+    position: relative;
+    display: contents;
+    color: white;
+    
+    
+}
+
+.ul-thee {
+    display: none;
+    position: absolute;
+    margin-top: 1.5vw;
+}
+
+.ul-thee > li {
+    width: 190px;
+    transform: translate(-20px);
+    border-bottom: solid 1px #fff;
+    text-align: center;
+    background-color: #28a064;
+}
+
+.ul-thee > li:hover {
+    background-color: #165736;
+}
+
+.develop1:hover > .ul-thee {
+    display: block;
+}
+
+.develop2 {
+    position: relative;
+    display: contents;
+    color: white; 
+    
+}
+
+.hero{
+    display: flex;
+    padding: 20px 50px;
+    justify-content: center ;
+}
+
+.hero .hero-content{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero h1 {
+    color: #212529;
+    font-family: "Kanit", sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.hero p{
+    font-family: "Kanit", sans-serif;
+    color: #212529;
+    text-overflow: 6px 3px 3px rgba(0,0,0,5);
+    font-size: 16px;
+    position: relative;
+    overflow-y: scroll;
+    height: 125px;
+    padding: 15px;
+    border:2px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(118, 125, 158); 
+    text-size-adjust: 10px;
+    
+}
+
+.hero p::-webkit-scrollbar{
+    width: 4px;
+}
+
+
+.hero p::-webkit-scrollbar-thumb {
+    background:#ec520b;
+    border-radius: 20px;
+    
+
+}
+
+.left{
+    width: 1000px;
+    align-self: center ;
+}
+
+.btn {
+    font-family: "Kanit", sans-serif;
+    color: #212529;
+    font-size: 32px;
+    margin-bottom: 50px;
+    text-align:unset;
+    transition: 3s;
+    transform: scale(1.00, 1.05);
+    text-decoration: none;
+}
+
+.btn :hover{
+    color: #8da1b6;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 1200px;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    font-family: "Kanit", sans-serif;
+    color: #212529;
+}
+
+.white {
+    color: #ec520b;
+    display:contents
+}
+
+footer {
+    width: auto;
+    height: 85px;
+    margin-bottom: 50px;
+    display:flex;
+    padding: 2rem;
+    text-align: center;
+    background-color: #212529;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+
+}
